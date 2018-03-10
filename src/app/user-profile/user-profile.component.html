@@ -1,0 +1,16 @@
+<div *ngIf="decodeToken">
+  <pre>{{decodeToken | json}}</pre> 
+</div>
+
+<div *ngIf="!decodeToken">
+  Aucune donnée trouvée !
+</div>
+
+
+<div *ngIf="isAdmin">
+  Je suis le tout puissant !
+</div>
+
+<div *ngIf="!isAdmin">
+  Je suis un simple user !
+</div>
